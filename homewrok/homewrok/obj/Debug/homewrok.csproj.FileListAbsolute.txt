@@ -1,0 +1,13 @@
+C:\Users\User\source\repos\new homework\homewrok\homewrok\obj\Debug\homewrok.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\new homework\homewrok\homewrok\obj\Debug\homewrok.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\repos\new homework\homewrok\homewrok\obj\Debug\homewrok.Hello0703.resources
+C:\Users\User\source\repos\new homework\homewrok\homewrok\obj\Debug\homewrok.Properties.Resources.resources
+C:\Users\User\source\repos\new homework\homewrok\homewrok\obj\Debug\homewrok.csproj.GenerateResource.cache
+C:\Users\User\source\repos\new homework\homewrok\homewrok\obj\Debug\homewrok.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\new homework\homewrok\homewrok\bin\Debug\homewrok.exe.config
+C:\Users\User\source\repos\new homework\homewrok\homewrok\bin\Debug\homewrok.exe
+C:\Users\User\source\repos\new homework\homewrok\homewrok\bin\Debug\homewrok.pdb
+C:\Users\User\source\repos\new homework\homewrok\homewrok\obj\Debug\homewrok.exe
+C:\Users\User\source\repos\new homework\homewrok\homewrok\obj\Debug\homewrok.pdb
+C:\Users\User\source\repos\new homework\homewrok\homewrok\obj\Debug\homewrok.Loan0704.resources
+C:\Users\User\source\repos\new homework\homewrok\homewrok\obj\Debug\homewrok.Loan0704_Report.resources
