@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -20,44 +21,85 @@ namespace homewrok
         {
             InitializeComponent();         
             this.Tag = Parentform;           
-        }
+        }                
 
-        private void btn_CXL_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }               
-
-        int num, min, max;
-        //string value;
+        int num, min, max;     
         Random r = new Random();
+
         private void btn_Enter_Click(object sender, EventArgs e)
         {
+            //Guess gu= new Guess();
             if (num == 0)
             {
                 //Random r = new Random();
-                num = r.Next(1, 101);
+                num = r.Next(1, 100);
                 min = 1;
                 max = 100;
             }
 
-            int guess = int.Parse(txt_Num.Text);
+            //int guess = int.Parse(txt_Num.Text);
+            //int guess = 0;
+            //bool A = int.TryParse(txt_Num.Text, out guess);
 
-            if (guess == num)
-            {                         
-                MessageBox.Show ($"Congradulations!!! you got {num}!!!");
-                num = 0;
-            }
-            else if (guess > num)
+            try
             {
-                max = guess;
-                ((Guess).this.Tag).label1.Text=($"Too big!!! \nbetween {min} and {max}");
+                int guess = int.Parse(txt_Num.Text);
+                if (guess == num)
+                {
+                    MessageBox.Show ($"Congradulations!!! you got {num}!!!");
+                    //num = 0;
+                }
+                else if (guess > num)
+                {
+                    max = guess;
+                    ((Guess)this.Tag).label1.Text = ($"Too big!!! \nbetween {min} and {max}");
+                }
+                else if (guess < num)
+                {
+                    min = guess;
+                    ((Guess)this.Tag).label1.Text = ($"Too small!!! \n between {min} and {max}");
+                }
+                else
+                {
+                    MessageBox.Show($"請輸入{min}~{max}之間的數字。", "錯誤", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
-            else
+            catch (FormatException)
             {
-                min = guess;
-                MessageBox.Show($"Too small!!! \n between {min} and {max}");
+                MessageBox.Show($"請輸入{min}~{max}之間的數字。", "錯誤", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+
+
+
+            //if (A)
+            //{
+            //    if (guess == num)
+            //    {
+            //        ((Guess)this.Tag).label1.Text = ($"Congradulations!!! you got {num}!!!");
+            //        num = 0;
+            //    }
+            //    else if (guess > num)
+            //    {
+            //        max = guess;
+            //        ((Guess)this.Tag).label1.Text = ($"Too big!!! \nbetween {min} and {max}");
+            //    }
+            //    else if (guess < num)
+            //    {
+            //        min = guess;
+            //        ((Guess)this.Tag).label1.Text = ($"Too small!!! \n between {min} and {max}");
+            //    }
+            //    else
+            //    {
+            //        MessageBox.Show($"請輸入{min}~{max}之間的數字。","錯誤", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //    }            
         }
+        private void btn_CXL_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+    }
+
+        
 
         //bool A = int.TryParse(txt_Num.Text, out keyin);
 
@@ -102,7 +144,7 @@ namespace homewrok
         //    }
         //}
     }
-}
+
     
 
            

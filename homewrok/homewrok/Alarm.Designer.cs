@@ -61,7 +61,7 @@
             this.gB_Select.Size = new System.Drawing.Size(556, 227);
             this.gB_Select.TabIndex = 0;
             this.gB_Select.TabStop = false;
-            this.gB_Select.Text = "Select Time設定鬧鐘幾點響";
+            this.gB_Select.Text = "Select Time";
             // 
             // lab_S
             // 

@@ -22,10 +22,8 @@ namespace homewrok
 
         private void btn_Guess_Click(object sender, EventArgs e)
         {
-            Guess1 gu = new Guess1();
-            gu.ShowDialog();
-            
-            this.label1.Text = $"Please Select A Number Between {min} To {max}!";
+            Guess1 gu1 = new Guess1(this);
+            gu1.ShowDialog();            
         }
 
         

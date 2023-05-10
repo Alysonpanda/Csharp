@@ -250,15 +250,6 @@
     <None Include="Resources\redpandajump.gif" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\朴寶劍.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\朴寶劍 %282%29.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\朴寶劍.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Shopping-Panda.png" />
   </ItemGroup>
   <ItemGroup>
@@ -280,28 +271,7 @@
     <None Include="Resources\pandamilktea.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\2pandas.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\room.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\bubble.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\BEER.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\樂天熊貓1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pandabreak.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\images.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\RED WINE.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\RED WINE0.jpg" />
@@ -310,16 +280,7 @@
     <None Include="Resources\WHISKY.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\TEQUILA.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\TEQUILA0.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\BEER0.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\beer0.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\beer.png" />
@@ -337,19 +298,19 @@
     <None Include="Resources\RRP.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\RPMT.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\RPMT0.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\RPANDA.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\朴寶劍PPG.jpg" />
+    <None Include="Resources\IU.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\IU.jpg" />
+    <None Include="Resources\RRTPANDA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\朴寶劍2.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

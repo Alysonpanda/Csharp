@@ -32,6 +32,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
+            this.btn_Guess = new System.Windows.Forms.Button();
+            this.btn_Screen = new System.Windows.Forms.Button();
             this.btn_Alarm = new System.Windows.Forms.Button();
             this.btn_Draw = new System.Windows.Forms.Button();
             this.btn_Pic = new System.Windows.Forms.Button();
@@ -44,8 +46,6 @@
             this.btn_Loan = new System.Windows.Forms.Button();
             this.btn_Hello = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.btn_Screen = new System.Windows.Forms.Button();
-            this.btn_Guess = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -72,7 +72,7 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.splitContainer2);
-            this.splitContainer1.Size = new System.Drawing.Size(1055, 634);
+            this.splitContainer1.Size = new System.Drawing.Size(1198, 634);
             this.splitContainer1.SplitterDistance = 154;
             this.splitContainer1.TabIndex = 0;
             // 
@@ -125,9 +125,39 @@
             this.splitContainer2.Panel2.BackgroundImage = global::homewrok.Properties.Resources.wallpaper2;
             this.splitContainer2.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.splitContainer2.Panel2.Controls.Add(this.label1);
-            this.splitContainer2.Size = new System.Drawing.Size(1055, 476);
-            this.splitContainer2.SplitterDistance = 278;
+            this.splitContainer2.Size = new System.Drawing.Size(1198, 476);
+            this.splitContainer2.SplitterDistance = 230;
             this.splitContainer2.TabIndex = 0;
+            // 
+            // btn_Guess
+            // 
+            this.btn_Guess.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_Guess.BackColor = System.Drawing.Color.Pink;
+            this.btn_Guess.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn_Guess.ForeColor = System.Drawing.Color.OrangeRed;
+            this.btn_Guess.Location = new System.Drawing.Point(46, 379);
+            this.btn_Guess.Name = "btn_Guess";
+            this.btn_Guess.Size = new System.Drawing.Size(149, 23);
+            this.btn_Guess.TabIndex = 13;
+            this.btn_Guess.Text = "Guess";
+            this.btn_Guess.UseVisualStyleBackColor = false;
+            this.btn_Guess.Click += new System.EventHandler(this.btn_Guess_Click);
+            // 
+            // btn_Screen
+            // 
+            this.btn_Screen.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_Screen.BackColor = System.Drawing.Color.Pink;
+            this.btn_Screen.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn_Screen.ForeColor = System.Drawing.Color.OrangeRed;
+            this.btn_Screen.Location = new System.Drawing.Point(46, 231);
+            this.btn_Screen.Name = "btn_Screen";
+            this.btn_Screen.Size = new System.Drawing.Size(149, 23);
+            this.btn_Screen.TabIndex = 12;
+            this.btn_Screen.Text = "Screen Saver";
+            this.btn_Screen.UseVisualStyleBackColor = false;
+            this.btn_Screen.Click += new System.EventHandler(this.btn_Screen_Click);
             // 
             // btn_Alarm
             // 
@@ -138,7 +168,7 @@
             this.btn_Alarm.ForeColor = System.Drawing.Color.OrangeRed;
             this.btn_Alarm.Location = new System.Drawing.Point(46, 350);
             this.btn_Alarm.Name = "btn_Alarm";
-            this.btn_Alarm.Size = new System.Drawing.Size(180, 23);
+            this.btn_Alarm.Size = new System.Drawing.Size(149, 23);
             this.btn_Alarm.TabIndex = 11;
             this.btn_Alarm.Text = "Alarm";
             this.btn_Alarm.UseVisualStyleBackColor = false;
@@ -153,7 +183,7 @@
             this.btn_Draw.ForeColor = System.Drawing.Color.OrangeRed;
             this.btn_Draw.Location = new System.Drawing.Point(46, 292);
             this.btn_Draw.Name = "btn_Draw";
-            this.btn_Draw.Size = new System.Drawing.Size(180, 23);
+            this.btn_Draw.Size = new System.Drawing.Size(149, 23);
             this.btn_Draw.TabIndex = 10;
             this.btn_Draw.Text = "小畫家";
             this.btn_Draw.UseVisualStyleBackColor = false;
@@ -168,7 +198,7 @@
             this.btn_Pic.ForeColor = System.Drawing.Color.OrangeRed;
             this.btn_Pic.Location = new System.Drawing.Point(46, 321);
             this.btn_Pic.Name = "btn_Pic";
-            this.btn_Pic.Size = new System.Drawing.Size(180, 23);
+            this.btn_Pic.Size = new System.Drawing.Size(149, 23);
             this.btn_Pic.TabIndex = 9;
             this.btn_Pic.Text = "Picture Viewer";
             this.btn_Pic.UseVisualStyleBackColor = false;
@@ -183,7 +213,7 @@
             this.btn_Note.ForeColor = System.Drawing.Color.OrangeRed;
             this.btn_Note.Location = new System.Drawing.Point(46, 263);
             this.btn_Note.Name = "btn_Note";
-            this.btn_Note.Size = new System.Drawing.Size(180, 23);
+            this.btn_Note.Size = new System.Drawing.Size(149, 23);
             this.btn_Note.TabIndex = 8;
             this.btn_Note.Text = "Notepad";
             this.btn_Note.UseVisualStyleBackColor = false;
@@ -198,7 +228,7 @@
             this.btn_Xo.ForeColor = System.Drawing.Color.OrangeRed;
             this.btn_Xo.Location = new System.Drawing.Point(46, 202);
             this.btn_Xo.Name = "btn_Xo";
-            this.btn_Xo.Size = new System.Drawing.Size(180, 23);
+            this.btn_Xo.Size = new System.Drawing.Size(149, 23);
             this.btn_Xo.TabIndex = 7;
             this.btn_Xo.Text = "0716_XOGame";
             this.btn_Xo.UseVisualStyleBackColor = false;
@@ -213,7 +243,7 @@
             this.btn_For.ForeColor = System.Drawing.Color.OrangeRed;
             this.btn_For.Location = new System.Drawing.Point(46, 173);
             this.btn_For.Name = "btn_For";
-            this.btn_For.Size = new System.Drawing.Size(180, 23);
+            this.btn_For.Size = new System.Drawing.Size(149, 23);
             this.btn_For.TabIndex = 6;
             this.btn_For.Text = "0712_ForDoWhile";
             this.btn_For.UseVisualStyleBackColor = false;
@@ -228,7 +258,7 @@
             this.btn_MyCalc.ForeColor = System.Drawing.Color.OrangeRed;
             this.btn_MyCalc.Location = new System.Drawing.Point(46, 144);
             this.btn_MyCalc.Name = "btn_MyCalc";
-            this.btn_MyCalc.Size = new System.Drawing.Size(180, 23);
+            this.btn_MyCalc.Size = new System.Drawing.Size(149, 23);
             this.btn_MyCalc.TabIndex = 5;
             this.btn_MyCalc.Text = "0711_MyCalc";
             this.btn_MyCalc.UseVisualStyleBackColor = false;
@@ -243,7 +273,7 @@
             this.btn_Student_Struct.ForeColor = System.Drawing.Color.OrangeRed;
             this.btn_Student_Struct.Location = new System.Drawing.Point(46, 115);
             this.btn_Student_Struct.Name = "btn_Student_Struct";
-            this.btn_Student_Struct.Size = new System.Drawing.Size(180, 23);
+            this.btn_Student_Struct.Size = new System.Drawing.Size(149, 23);
             this.btn_Student_Struct.TabIndex = 4;
             this.btn_Student_Struct.Text = "0708_Student_StructForm";
             this.btn_Student_Struct.UseVisualStyleBackColor = false;
@@ -258,7 +288,7 @@
             this.btn_POS.ForeColor = System.Drawing.Color.OrangeRed;
             this.btn_POS.Location = new System.Drawing.Point(46, 86);
             this.btn_POS.Name = "btn_POS";
-            this.btn_POS.Size = new System.Drawing.Size(180, 23);
+            this.btn_POS.Size = new System.Drawing.Size(149, 23);
             this.btn_POS.TabIndex = 3;
             this.btn_POS.Text = "0705_POS";
             this.btn_POS.UseVisualStyleBackColor = false;
@@ -273,7 +303,7 @@
             this.btn_Loan.ForeColor = System.Drawing.Color.OrangeRed;
             this.btn_Loan.Location = new System.Drawing.Point(46, 57);
             this.btn_Loan.Name = "btn_Loan";
-            this.btn_Loan.Size = new System.Drawing.Size(180, 23);
+            this.btn_Loan.Size = new System.Drawing.Size(149, 23);
             this.btn_Loan.TabIndex = 2;
             this.btn_Loan.Text = "0704_Loan";
             this.btn_Loan.UseVisualStyleBackColor = false;
@@ -288,7 +318,7 @@
             this.btn_Hello.ForeColor = System.Drawing.Color.OrangeRed;
             this.btn_Hello.Location = new System.Drawing.Point(46, 28);
             this.btn_Hello.Name = "btn_Hello";
-            this.btn_Hello.Size = new System.Drawing.Size(180, 23);
+            this.btn_Hello.Size = new System.Drawing.Size(149, 23);
             this.btn_Hello.TabIndex = 1;
             this.btn_Hello.Text = "0703_Hello";
             this.btn_Hello.UseVisualStyleBackColor = false;
@@ -302,41 +332,11 @@
             this.label1.Size = new System.Drawing.Size(0, 12);
             this.label1.TabIndex = 0;
             // 
-            // btn_Screen
-            // 
-            this.btn_Screen.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_Screen.BackColor = System.Drawing.Color.Pink;
-            this.btn_Screen.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn_Screen.ForeColor = System.Drawing.Color.OrangeRed;
-            this.btn_Screen.Location = new System.Drawing.Point(46, 231);
-            this.btn_Screen.Name = "btn_Screen";
-            this.btn_Screen.Size = new System.Drawing.Size(180, 23);
-            this.btn_Screen.TabIndex = 12;
-            this.btn_Screen.Text = "Screen Saver";
-            this.btn_Screen.UseVisualStyleBackColor = false;
-            this.btn_Screen.Click += new System.EventHandler(this.btn_Screen_Click);
-            // 
-            // btn_Guess
-            // 
-            this.btn_Guess.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_Guess.BackColor = System.Drawing.Color.Pink;
-            this.btn_Guess.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn_Guess.ForeColor = System.Drawing.Color.OrangeRed;
-            this.btn_Guess.Location = new System.Drawing.Point(46, 379);
-            this.btn_Guess.Name = "btn_Guess";
-            this.btn_Guess.Size = new System.Drawing.Size(180, 23);
-            this.btn_Guess.TabIndex = 13;
-            this.btn_Guess.Text = "Guess";
-            this.btn_Guess.UseVisualStyleBackColor = false;
-            this.btn_Guess.Click += new System.EventHandler(this.btn_Guess_Click);
-            // 
             // HomePage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1055, 634);
+            this.ClientSize = new System.Drawing.Size(1198, 634);
             this.Controls.Add(this.splitContainer1);
             this.Name = "HomePage";
             this.Text = "Cover";

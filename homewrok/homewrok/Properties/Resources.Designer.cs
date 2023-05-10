@@ -133,16 +133,6 @@ namespace homewrok.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
-        internal static System.Drawing.Bitmap pandabreak {
-            get {
-                object obj = ResourceManager.GetObject("pandabreak", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
-        /// </summary>
         internal static System.Drawing.Bitmap PANDAHAND {
             get {
                 object obj = ResourceManager.GetObject("PANDAHAND", resourceCulture);
@@ -213,16 +203,6 @@ namespace homewrok.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
-        internal static System.Drawing.Bitmap room {
-            get {
-                object obj = ResourceManager.GetObject("room", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
-        /// </summary>
         internal static System.Drawing.Bitmap RP {
             get {
                 object obj = ResourceManager.GetObject("RP", resourceCulture);
@@ -266,6 +246,16 @@ namespace homewrok.Properties {
         internal static System.Drawing.Bitmap RRP {
             get {
                 object obj = ResourceManager.GetObject("RRP", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap RRTPANDA {
+            get {
+                object obj = ResourceManager.GetObject("RRTPANDA", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -323,9 +313,9 @@ namespace homewrok.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
-        internal static System.Drawing.Bitmap 樂天熊貓1 {
+        internal static System.Drawing.Bitmap 朴寶劍2 {
             get {
-                object obj = ResourceManager.GetObject("樂天熊貓1", resourceCulture);
+                object obj = ResourceManager.GetObject("朴寶劍2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

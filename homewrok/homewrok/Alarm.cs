@@ -39,8 +39,19 @@ namespace homewrok
 
             if (time.Hour == h && time.Minute == m && time.Second == s&&cB_Set.Checked)
             {
+                //cB_Set.Checked = false;               
+                //MessageBox.Show("時辰到惹！");
                 cB_Set.Checked = false;
-                MessageBox.Show("時辰到惹！");
+                DialogResult result = MessageBox.Show("時辰到惹！", "", MessageBoxButtons.OK);
+                
+                if (result == DialogResult.OK)
+                {
+                    this.BackgroundImage = Properties.Resources.朴寶劍2;
+                    //    this.BackgroundImage = Properties.Resources.朴寶劍8;
+                    /*Image.FromFile("C:\\Users\\User\\Desktop\\1朴寶劍.jpg");*/
+                }
+
+
             }
         }
     }
